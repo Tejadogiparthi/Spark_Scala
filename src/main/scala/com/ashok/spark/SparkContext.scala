@@ -1,4 +1,4 @@
-package main.scala.com.ashok.spark
+package com.ashok.spark
 
 import org.apache.spark.{SparkConf, SparkContext}
 import com.typesafe.config._
