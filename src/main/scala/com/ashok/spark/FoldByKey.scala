@@ -53,6 +53,6 @@ object FoldByKey {
     )
     println("maximum salaries in each dept is")
     maxByDept.collect().foreach(println)
-    //The only disadvantage of reducebyKey and foldbykey is that input and output type should be same and it can be avoided by using aggregateBykey
+    //The only disadvantage of reducebyKey and foldbykey is that return type should be same as the RDD element type and it can be avoided by using aggregateBykey
   }
 }
